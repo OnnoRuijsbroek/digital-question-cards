@@ -21,7 +21,7 @@ with ePaper hat, but replaced by OLED since the hat has buttons.
 - the source files are numbered and suffixed by `.txt`
 - the layout of categories and contents (amount of lines) can be configured at `#sourceFiles`
 
-## Booting python script
+## booting python script
 
 - source https://www.raspberrypi-spy.co.uk/2015/02/how-to-autorun-a-python-script-on-raspberry-pi-boot/
     - sudo raspi-config -> autologin
