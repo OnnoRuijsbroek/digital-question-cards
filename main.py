@@ -52,11 +52,11 @@ maxLineLengthLargeFont = 10
 
 # sourceFiles
 initialFileNumberSet1 = 0
-maxLinesPerFileSet1 = [169, 64, 52]
+maxLinesPerFileSet1 = [2, 3]
 initialFileNumberSet2 = 10
-maxLinesPerFileSet2 = [701, 911, 291, 207, 91]
+maxLinesPerFileSet2 = [3, 2]
 initialFileNumberSet3 = 20
-maxLinesPerFileSet3 = [11, 11]
+maxLinesPerFileSet3 = [3]
 currentSetFile = 0
 currentRowNumber = 0
 filenameSuffix = '.txt'
@@ -78,8 +78,8 @@ def _display_main_screen():
 def _display_question_screen(draw, verticalOffset, textFill):
     wrapped_text = _format_text_for_display(_get_question_text())
     for index in range(len(wrapped_text)):
-        draw.text((0, verticalOffset + 0 + (currentFontSize * index)), wrapped_text[index], font=currentFont, fill=textFill)
-
+        draw.text((0, verticalOffset + 0 + (currentFontSize * index)), wrapped_text[index], font=currentFont,
+                  fill=textFill)
 
 
 def _get_menu_text():
